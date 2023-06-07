@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.text-color{
+  color: pink;
+}
+
+.text-colorB{
+  color:#535bf2;
+}
+
+.person-container {
+  display: flex;
+  border: 1px solid #192668;
+  background-color: #c7dc74;
+  padding: 10px;
+  margin: 10px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  
+
+}
