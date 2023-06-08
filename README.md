@@ -7,11 +7,11 @@ Develop an application with React
 Example 1.
 Free Code Camp / React
 
--Create a simple JSX element
+<b>-Create a simple JSX element</b>
 
 const JSX=<h1>Hello JSX!</h1>
 
--Create a complex JSX element
+<b>-Create a complex JSX element</b>
 
 const JSX=<div>
   <h1>Paragraph One</h1>
@@ -31,7 +31,7 @@ const JSX=<div>
 </div>
 
 
--Add comments in JSX
+<b>-Add comments in JSX</b>
 
 const JSX = (
   <div>
@@ -42,7 +42,7 @@ const JSX = (
 );
 
 
--Render HTML elements to the DOM
+<b>-Render HTML elements to the DOM</b>
 
 const JSX = (
   <div>
@@ -52,16 +52,15 @@ const JSX = (
 );
 ReactDOM.render(JSX, document.getElementById("challenge-node"))
 
--Define an HTML Class in JSX
+<b>-Define an HTML Class in JSX</b>
 
 const JSX = (
   <div className="myDiv">
     <h1>Add a class to this div</h1>
   </div>
-);
 
 
--Learn about self-closing JSX tags
+<b>-Learn about self-closing JSX tags</b>
 
 
 const JSX = (
@@ -70,8 +69,10 @@ const JSX = (
     <p>Be sure to close all tags!</p>
     <hr/>
   </div>
-);
-## Installation
+<br>
+
+
+<h2> Installation</h2>
 
 
 
@@ -80,9 +81,9 @@ for React projects. Vite React offers a number of features and
 improvements to improve the efficiency and speed of applications
 React, such as code precompilation and fast module loading.
 
-npm create vite@latest
+<b>npm create vite@latest</b>
 
-JSX
+<h3>JSX</h3>
 
 JSX is a syntax extension for JavaScript. By using JSX, we can write HTML structures in the
 same file that contains JavaScript code. This makes the code easier to understand and
@@ -90,7 +91,7 @@ debug as it avoids the use of complex JavaScript DOM structures.
 
 
 
-VSC extension for React
+<h3>VSC extension for React</h3>
 
 https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
 
