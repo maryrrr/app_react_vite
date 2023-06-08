@@ -8,7 +8,7 @@ export const HomeFunct = (props) => {
     <div>
       
         
-        <h2>¡Bienvenido a mi página personal!</h2>
+        <h2>¡Bienvenido a mi página personal creada con componete funcional!</h2>
         <section className='container-box'>
         <div className='descript'>
         <p>Me llamo {props.name} y estudio en The Bridge.</p>

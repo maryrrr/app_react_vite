@@ -4,7 +4,7 @@ export default class extends Component {
   render() {
     return (
       <div>
-        <h2>¡Bienvenido a mi página personal!</h2>
+        <h2>¡Bienvenido a mi página personal creada con componente de Clase!</h2>
         <section className='container-box'>
         <div className='descript'>
         <p>Me llamo {this.props.name} y estudio en The Bridge.</p>
